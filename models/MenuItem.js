@@ -28,5 +28,6 @@ const menuItemSchema = new mongoose.Schema({
     }
 })
 
+//add comment
 const MenuItem = mongoose.model('MenuItem',menuItemSchema)
 module.exports = MenuItem
